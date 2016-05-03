@@ -1,6 +1,18 @@
+// Fonts
+@font-face {
+  font-family: 'Brandon Grotesque Bold Italic';
+  src: url('../fonts/Brandon_bld_it.otf');
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque Light';
+  src: url('../fonts/Brandon_light.otf');
+}
+
 // Nav
 .nav-link {
     display: block;
+    font-family: 'Brandon Grotesque Light', sans-serif;
 }
 
 .navigation-links {
@@ -10,15 +22,18 @@
 
 .name-heading {
     font-size: 4rem;
-    padding-bottom: 2rem;
+    font-family: 'Brandon Grotesque Bold Italic', sans-serif;
 }
 
 .name-gif {
-  font-size: 7rem;
   position: absolute;
-  top: 50px;
-  left: 50px;
+  top: 5px;
+  left: 5px;
   z-index: 0;
+  width: 500px;
+  img {
+    width: 100%;
+  }
 }
 
 /**

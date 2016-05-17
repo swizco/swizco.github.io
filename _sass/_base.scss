@@ -141,6 +141,53 @@ a {
     }
 }
 
+// Project
+.post {
+  height: 100%;  
+}
+
+.project-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+.nav-arrow-left, .nav-arrow-right {
+  font-size: 3rem;
+  display: flex;
+  flex: 1;
+  height: 100%;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.padding-arrow-bottom {
+  padding-bottom: 12rem;
+}
+
+.padding-arrow-top {
+  padding-top: 12rem;
+}
+
+.project-content {
+  background-color: blue;
+  flex: 4;
+  display: flex;
+  height: 80%;
+  align-items: center;
+  flex-direction: row;
+}
+
+.left-column {
+  flex: 1;
+}
+
+.right-column {
+  flex: 1;
+}
 
 
 // /**

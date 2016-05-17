@@ -2,15 +2,19 @@
 layout: default
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-<div class="project-content">
-  <div class="nav-arrow-left">
-  </div>
-  <div class="project-content">
-    {{ content }}
-  </div>
-  <div class="nav-arrow-right">
-  </div>
-</div>
-
+	<div class="project-wrapper">
+	  <div class="nav-arrow-left">
+	  	{% if page.previous.url %}
+	  		<a class="padding-arrow-bottom" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&lt;</a>
+	  	{% endif %}
+	  </div>
+	  <div class="project-content">
+	    {{ content }}
+	  </div>
+	  <div class="nav-arrow-right">
+	  	{% if page.next.url %}
+	  		<a class="padding-arrow-top" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">&gt;</a>
+	  	{% endif %}
+	  </div>
+	</div>
 </article>

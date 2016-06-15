@@ -75,7 +75,9 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
-
+h4 {
+  font-family: 'Brandon Grotesque Light', sans-serif;
+}
 
 /**
  * Images
@@ -172,6 +174,10 @@ a {
   padding-top: 12rem;
 }
 
+.arrow {
+  height: 80px;
+}
+
 .project-content {
   background-color: blue;
   flex: 4;
@@ -181,14 +187,34 @@ a {
   flex-direction: row;
 }
 
+.proj-column {
+  width: 50%;
+  height: 100%;
+}
+
 .left-column {
-  flex: 1;
+  overflow-y: auto;
+
+  img {
+    margin-bottom: 1rem;
+  }
 }
 
 .right-column {
-  flex: 1;
+  .proj-info {
+    padding: 2rem;
+  }
 }
 
+.about-column {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  p {
+    width: 200px;
+  }
+}
 
 // /**
 //  * Blockquotes

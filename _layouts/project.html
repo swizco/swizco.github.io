@@ -5,7 +5,7 @@ layout: default
 	<div class="project-wrapper">
 	  <div class="nav-arrow-left">
 	  	{% if page.previous.url %}
-	  		<a class="padding-arrow-bottom" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&lt;</a>
+	  		<a class="padding-arrow-bottom" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}"><img class="arrow" src="{{site.url}}/img/noun_16963.svg" /></a>
 	  	{% endif %}
 	  </div>
 	  <div class="project-content">
@@ -13,7 +13,7 @@ layout: default
 	  </div>
 	  <div class="nav-arrow-right">
 	  	{% if page.next.url %}
-	  		<a class="padding-arrow-top" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">&gt;</a>
+	  		<a class="padding-arrow-top" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}"><img class="arrow" src="{{site.url}}/img/noun_16975.svg" /></a>
 	  	{% endif %}
 	  </div>
 	</div>

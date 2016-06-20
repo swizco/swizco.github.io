@@ -11,18 +11,19 @@
 
 // Nav
 .nav-link {
-    display: block;
-    font-family: 'Brandon Grotesque Light', sans-serif;
+  display: block;
+  font-family: 'Brandon Grotesque Light', sans-serif;
 }
 
 .navigation-links {
-    z-index: 2;
-    position: relative;
+  z-index: 2;
+  position: relative;
 }
 
 .name-heading {
-    font-size: 4rem;
-    font-family: 'Brandon Grotesque Bold Italic', sans-serif;
+  margin-top: 2rem;
+  font-size: 4rem;
+  font-family: 'Brandon Grotesque Bold Italic', sans-serif;
 }
 
 .name-gif {
@@ -83,8 +84,8 @@ h4 {
  * Images
  */
 img {
-    max-width: 100%;
-    vertical-align: middle;
+  max-width: 100%;
+  vertical-align: middle;
 }
 
 
@@ -179,17 +180,21 @@ a {
 }
 
 .project-content {
-  background-color: lightgrey;
-  flex: 4;
+//  background-color: lightgrey;
+  flex: 8;
   display: flex;
   height: 80%;
   align-items: center;
   flex-direction: row;
 }
 
+.indented {
+    margin-top: 3rem;
+    margin-left: 8rem;
+  }
+
 .proj-column {
-  width: 50%;
-  height: 100%;
+  
 }
 
 .left-column {
@@ -197,15 +202,18 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100%;
+  width: 60%;
 
   img {
     margin: 1rem;
-    width: 250px;
-    height: 300px;
+    width: 90%;
   }
 }
 
 .right-column {
+  width: 40%;
+  height: 100%;
   .proj-info {
     padding: 2rem;
     margin-top: 40%;

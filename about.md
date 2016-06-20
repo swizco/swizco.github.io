@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 <div class="proj-column">
-	self portrait here
+	<p class="indented">self portrait here</p>
 </div>
 
 <div class="proj-column about-column">

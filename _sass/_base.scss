@@ -9,6 +9,11 @@
   src: url('../fonts/Brandon_light.otf');
 }
 
+@font-face {
+  font-family: 'Old Standard';
+  src: url('../fonts/OldStandard-Regular.ttf');
+}
+
 // Nav
 .nav-link {
   display: block;
@@ -63,6 +68,10 @@ dl, dd, ol, ul, figure {
 //     font-feature-settings: "kern" 1;
 //     font-kerning: normal;
 // }
+
+p {
+  font-family: 'Old Standard', serif;
+}
 
 
 
@@ -194,7 +203,7 @@ a {
   }
 
 .proj-column {
-  
+  width: 50%;
 }
 
 .left-column {
@@ -216,7 +225,7 @@ a {
   height: 100%;
   .proj-info {
     padding: 2rem;
-    margin-top: 50%;
+    margin-top: 70%;
 
     .proj-title {
       font-family: 'Brandon Grotesque Light', sans-serif;

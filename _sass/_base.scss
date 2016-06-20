@@ -183,7 +183,7 @@ a {
 //  background-color: lightgrey;
   flex: 8;
   display: flex;
-  height: 80%;
+  height: 100%;
   align-items: center;
   flex-direction: row;
 }
@@ -216,7 +216,7 @@ a {
   height: 100%;
   .proj-info {
     padding: 2rem;
-    margin-top: 40%;
+    margin-top: 50%;
 
     .proj-title {
       font-family: 'Brandon Grotesque Light', sans-serif;
